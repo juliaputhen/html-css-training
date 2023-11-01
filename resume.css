@@ -1,0 +1,100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.top-panel-container{
+    background-color:  rgb(10, 10, 46);
+    /* width: 100%; */
+    height: 170px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    /* position: relative; */
+}
+
+.top-panel-container img{
+   
+    /* padding-left: 20px;  */
+    width: 180px ;
+    display: inline-block;
+    height: 180px;
+    border-radius: 30%;
+    border: 3px solid black;
+    margin-left: 35px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.top-panel-container .heading-container{
+    
+    background-color: rgb(52, 81, 155);
+    color: white;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* padding: 30px; */
+    white-space: nowrap;
+    height: 130px;
+    margin-top: auto;
+    border: 2px solid white;
+    /* margin-bottom: auto; */
+    /* margin-left: 20px; */
+    /* padding-left: 100px; */
+    /* position: absolute; */
+    padding-left: 300px;
+    padding-top: 17px;
+
+
+}
+
+.table-container{
+
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 20px;
+      
+}
+
+.table-container th,
+td {
+    color: white;
+  text-align: left;
+  padding: 8px 5px;
+}
+tr:nth-child(even) {
+    background-color: rgb(52, 81, 155);
+}
+tr:nth-child(odd) {
+  
+  background-color: rgb(10, 10, 46)
+}
+
+.bottom-section{
+    padding-top: 20px;
+   background-color: rgb(214, 217, 251);
+   display: flex;
+   width: 100%;
+   border-radius: 2px;
+
+}
+
+.bottom-section .left-container{
+   
+    background-color: rgb(52, 81, 155);
+    border: 2px solid white;
+    color: white;
+    flex : 1;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+.bottom-section .right-container{
+    float: right;
+    flex:4;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(39, 199, 199);
+}
+h1{
+    color: white;
+   text-align: center;
+}
+
+h2,h3,h4{
+    color: red;
+    text-align: center;
+}
+ol {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  ul {
+    background-color:blue;
+    padding: 10px;
+  }
+  
+  ol li {
+    background-color: lightpink;
+
+  }
+  
+  ul li {
+    background-color: lightblue;
+    margin: 5px;
+  }
